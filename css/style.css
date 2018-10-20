@@ -640,13 +640,23 @@ nav {
 .pt-50 {
     padding-top: 50px;
 }
+.pr-5{
+	padding-right: 5px;
+}
 
 /* ----- Padding class End------  */
 
 /* -----Research Section start ------  */
-
 .research  img{
 	width : 255px;
 }
-
 /* -----Research Section End ------  */
+
+
+/* ---- Publication Section start ------  */
+.panel-body{
+	background:#e74c3c;
+	color: #fff;
+}
+
+/* ---- Publication Section End ------  */
