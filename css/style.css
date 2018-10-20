@@ -644,15 +644,9 @@ nav {
 /* ----- Padding class End------  */
 
 /* -----Research Section start ------  */
-.research {
-	padding-top:30px;
-}
-.research  img{
-	margin-top: 25px;
-}
 
 .research  img{
-	height : 275px;
+	width : 255px;
 }
 
 /* -----Research Section End ------  */
