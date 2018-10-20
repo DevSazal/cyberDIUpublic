@@ -4,6 +4,7 @@
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
 }
+
 /* -----Navbar Start------  */
 .navbar {
   height: 152px;
@@ -622,3 +623,36 @@ nav {
   }
 }
 /* -----Navbar End ------  */
+/* ----- Padding class start------  */
+
+.pt-5{
+	padding-top: 5px;
+}
+.pt-10{
+	padding-top: 10px;
+}
+.pt-20{
+	padding-top: 20px;
+}
+.pt-40{
+	padding-top: 40px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+
+/* ----- Padding class End------  */
+
+/* -----Research Section start ------  */
+.research {
+	padding-top:30px;
+}
+.research  img{
+	margin-top: 25px;
+}
+
+.research  img{
+	height : 275px;
+}
+
+/* -----Research Section End ------  */
