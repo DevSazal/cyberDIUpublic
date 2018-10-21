@@ -841,6 +841,9 @@ footer .footer-top ul li {
 	color: #e74c3c;
 	text-decoration:none;
 }
+.footer-top h4{
+	font-weight : bolder;
+}
 
 /* footer-top Section*/
 .copyright-zone{ 
