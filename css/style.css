@@ -654,6 +654,9 @@ nav {
 .research  img{
 	width : 255px;
 }
+.research p{
+  line-height: 23px;
+}
 /* -----Research Section End ------  */
 
 
