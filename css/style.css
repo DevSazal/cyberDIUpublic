@@ -806,14 +806,15 @@ transition:.5s;
 .footer-over h3{
 	color: #fff;
 }
-footer.footer{
+footer .footer-top{
 	background:#F2F2F2;
 }
 .list-style-none{
 	list-style-type: none;
 }
-footer.footer ul li { 
- padding: 5px 0px;
+footer .footer-top ul li { 
+ padding-top: 5px;
+ padding-bottom: 5px;
 }
 
 
