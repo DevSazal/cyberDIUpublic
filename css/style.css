@@ -633,6 +633,9 @@ nav {
 .pt-20{
 	padding-top: 20px;
 }
+.pt-30{
+	padding-top: 30px;
+}
 .pt-40{
 	padding-top: 40px;
 }
@@ -732,3 +735,37 @@ nav {
 box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
 transition:.5s;
 }
+
+/* project section End */
+.events hr{
+	width: 5%;
+	color: #E74C3C;
+	background-color: #E74C3C;
+	height: 3px;
+}
+.single-event{
+	display:inline-block;
+}
+.events img{
+    width: 250px;
+    margin-top: 10px;
+}
+.events h1{
+	font-size: 55px;
+}
+
+.color-main{
+	color: #E74C3C;
+}/* color code code */
+.font-12{
+	font-size:12px;
+}
+.br-1{
+	border-right: 1px solid #e3e3e3;
+}
+
+
+/* Events section start */
+	
+
+/* Events section Ends */
