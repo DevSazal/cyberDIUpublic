@@ -768,6 +768,8 @@ transition:.5s;
 }
 
 /* project section End */
+
+/* Events section start */
 .events hr{
 	width: 5%;
 	color: #E74C3C;
@@ -795,8 +797,25 @@ transition:.5s;
 	border-right: 1px solid #e3e3e3;
 }
 
+/* Events section Ends 
 
-/* Events section start */
-	
+/* footer section start*/
+.footer-over{
+	background: #E74C3C;
+}
+.footer-over h3{
+	color: #fff;
+}
+footer.footer{
+	background:#F2F2F2;
+}
+.list-style-none{
+	list-style-type: none;
+}
+footer.footer ul li { 
+ padding: 5px 0px;
+}
 
-/* Events section Ends */
+
+
+/* footer section End*/
