@@ -651,6 +651,9 @@ nav {
 .pb-10{
 	padding-bottom: 10px;
 }
+.pb-12{
+	padding-bottom: 12px;
+}
 .pb-15{
 	padding-bottom: 15px;
 }
@@ -800,6 +803,7 @@ transition:.5s;
 /* Events section Ends 
 
 /* footer section start*/
+/* footer-top Section*/
 .footer-over{
 	background: #E74C3C;
 }
@@ -813,10 +817,16 @@ footer .footer-top{
 	list-style-type: none;
 }
 footer .footer-top ul li { 
- padding-top: 5px;
- padding-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #e3e3e3;
 }
-
-
+.footer-top ul li a{
+	color: #337ab7;
+}
+/* footer-top Section*/
+.copyright-zone{ 
+	background: #e5e5e5;
+}
 
 /* footer section End*/
