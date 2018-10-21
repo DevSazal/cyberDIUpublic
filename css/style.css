@@ -32,11 +32,11 @@
 }
 
 .menu-left {
-  padding-left: 71px;
+  margin-left: -15px;
 }
 
 .menu-right {
-  padding-right: 82px;
+  margin-right: -15px;
 }
 
 .main-menu {
@@ -134,13 +134,12 @@ i.fas.fa-search {
     background: #F8F8F8;
     position: relative;
     bottom: 111px;
-    margin: 0 98px;
     height: 111px;
   }
 
   .p-menu {
     margin-top: 34px;
-    padding-right: 40px;
+    padding-right: 55px;
   }
 }
 
@@ -665,14 +664,14 @@ nav {
 	border-radius:unset;
 	padding-top:10px;
 	padding-bottom:10px;
-	
+
 }
 .panel-body{
 	color: #fff;
 	padding-top:5px;
 	font-size:16px;
 	font-family: monospace;
-	
+
 }
 .panel:hover{
 	-webkit-box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
