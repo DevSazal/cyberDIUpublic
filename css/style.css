@@ -4,6 +4,7 @@
   text-decoration: none;
   font-family: 'Quicksand', sans-serif;
 }
+
 /* -----Navbar Start------  */
 .navbar {
   height: 152px;
@@ -31,11 +32,11 @@
 }
 
 .menu-left {
-  padding-left: 71px;
+  margin-left: -15px;
 }
 
 .menu-right {
-  padding-right: 82px;
+  margin-right: -15px;
 }
 
 .main-menu {
@@ -133,13 +134,12 @@ i.fas.fa-search {
     background: #F8F8F8;
     position: relative;
     bottom: 111px;
-    margin: 0 98px;
     height: 111px;
   }
 
   .p-menu {
     margin-top: 34px;
-    padding-right: 40px;
+    padding-right: 55px;
   }
 }
 
@@ -620,4 +620,115 @@ nav {
   #cssmenu>ul ul>li.has-sub>ul>li.active>a {
     border-top: none
   }
+}
+/* -----Navbar End ------  */
+/* ----- Padding class start------  */
+
+.pt-5{
+	padding-top: 5px;
+}
+.pt-10{
+	padding-top: 10px;
+}
+.pt-20{
+	padding-top: 20px;
+}
+.pt-40{
+	padding-top: 40px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+.pr-5{
+	padding-right: 5px;
+}
+.pb-10{
+	padding-bottom: 10px;
+}
+.pb-15{
+	padding-bottom: 15px;
+}
+.pb-40{
+  padding-bottom: 40px;
+}
+/* ----- Padding class End------  */
+
+/* -----Research Section start ------  */
+.research  img{
+	width : 255px;
+}
+.research p{
+  line-height: 23px;
+}
+/* -----Research Section End ------  */
+
+
+/* ---- Publication Section start ------  */
+.publication .panel{
+	background:#e74c3c;
+	color: #fff;
+	border-radius:unset;
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+.publication .panel-body{
+	color: #fff;
+	padding-top:5px;
+	font-size:16px;
+	font-family: monospace;
+
+}
+.publication .panel:hover{
+	-webkit-box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
+	-moz-box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
+	box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
+	cursor:pointer;
+}
+
+/* ---- Publication Section End ------  */
+
+/* project section start */
+.project .panel{
+  border: unset;
+  border-radius: unset;
+  margin-bottom: 0;
+}
+.project .panel1{
+  background: #F2F2F2;
+}
+.project .panel2{
+  background: #E5E5E5;
+}
+.project .col-sm-12,
+.project .col-md-4,
+.project .col-lg-4{
+  padding: 0;
+}
+.project .panel .panel-heading{
+  text-align: center;
+  padding-bottom: 0;
+}
+.project .panel .panel-heading h1 {
+  font-size: 23px;
+    font-weight: bold;
+}
+.project .panel .panel-body {
+    padding: 0 15px;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.project .panel .panel-body h2{
+  color: #000;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+.project .panel .project-links{
+  text-align: center;
+    font-size: 40px;
+}
+.project .panel:hover{
+box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
+transition:.5s;
 }
