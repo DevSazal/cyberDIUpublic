@@ -643,7 +643,12 @@ nav {
 .pr-5{
 	padding-right: 5px;
 }
-
+.pb-10{
+	padding-bottom: 10px;
+}
+.pb-15{
+	padding-bottom: 15px;
+}
 /* ----- Padding class End------  */
 
 /* -----Research Section start ------  */
