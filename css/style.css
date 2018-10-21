@@ -648,6 +648,9 @@ nav {
 .pb-15{
 	padding-bottom: 15px;
 }
+.pb-40{
+  padding-bottom: 40px;
+}
 /* ----- Padding class End------  */
 
 /* -----Research Section start ------  */
@@ -661,7 +664,7 @@ nav {
 
 
 /* ---- Publication Section start ------  */
-.panel{
+.publication .panel{
 	background:#e74c3c;
 	color: #fff;
 	border-radius:unset;
@@ -669,14 +672,14 @@ nav {
 	padding-bottom:10px;
 
 }
-.panel-body{
+.publication .panel-body{
 	color: #fff;
 	padding-top:5px;
 	font-size:16px;
 	font-family: monospace;
 
 }
-.panel:hover{
+.publication .panel:hover{
 	-webkit-box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
 	-moz-box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
 	box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
@@ -684,3 +687,48 @@ nav {
 }
 
 /* ---- Publication Section End ------  */
+
+/* project section start */
+.project .panel{
+  border: unset;
+  border-radius: unset;
+  margin-bottom: 0;
+}
+.project .panel1{
+  background: #F2F2F2;
+}
+.project .panel2{
+  background: #E5E5E5;
+}
+.project .col-sm-12,
+.project .col-md-4,
+.project .col-lg-4{
+  padding: 0;
+}
+.project .panel .panel-heading{
+  text-align: center;
+  padding-bottom: 0;
+}
+.project .panel .panel-heading h1 {
+  font-size: 23px;
+    font-weight: bold;
+}
+.project .panel .panel-body {
+    padding: 0 15px;
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.project .panel .panel-body h2{
+  color: #000;
+    font-size: 1.5rem;
+    line-height: 1.4;
+}
+.project .panel .project-links{
+  text-align: center;
+    font-size: 40px;
+}
+.project .panel:hover{
+box-shadow: -1px 4px 88px -16px rgba(0,0,0,1);
+transition:.5s;
+}
