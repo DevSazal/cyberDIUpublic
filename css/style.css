@@ -53,7 +53,7 @@
 }
 
 .top-menu .nav>li>a:focus{
-  background-color: none !important;
+  background-color: unset !important;
 }
 
 .menu-right .nav i {
