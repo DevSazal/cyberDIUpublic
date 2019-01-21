@@ -164,3 +164,18 @@
     border-radius: 50%;
     transition: all 0.3s ease 0s;
 }
+
+
+
+.single-research-feed .card .header{
+	background:#f9f9f9;
+	padding: 20px 20px 20px 20px;
+}
+.single-feed .content .single-feed-time{ 
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #e0e0e0;
+ }
+ .single-research-feed .single-feed .footer{ 
+	padding-bottom: 20px;
+  }
