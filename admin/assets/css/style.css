@@ -29,7 +29,138 @@
 	transform: translateY(-3px);
 	transition: all 0.3s;
 	-webkit-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
--moz-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
+	box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
 	
  }
+ .single-feed .header .title{ 
+
+	color:#55c57a;
+ }
+ .single-feed .header .title:hover{ 
+	text-decoration: underline;
+ }
+
+ /*pagination CSS*/
+
+ .pagination-box{ 
+	text-align: center;
+  }
+.pagination-box .pagination {
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    padding: 12px;
+    margin: 10px 0;
+}
+.pagination-box ul{
+    list-style: none;
+}
+.pagination>li {
+    display: inline;
+}
+.page-item {
+    text-align: center;
+}
+.pagination>.disabled>span.page-link {
+    border: none;
+    height: 45px;
+    width: 45px;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #55c57a;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 1;
+    margin: 0 8px 0 0;
+    transition: all 0.4s ease 0s;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination>.active>span.page-link {
+    height: 45px;
+    width: 45px;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #55c57a;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 1;
+    margin: 0 8px 0 0;
+    transition: all 0.4s ease 0s;
+    border: 2px solid #55c57a;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #337ab7;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination li a.page-link, .pagination li:first-child a.page-link, .pagination li:last-child a.page-link {
+    border: none;
+    height: 45px;
+    width: 45px;
+    line-height: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #55c57a;
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    z-index: 1;
+    margin: 0 8px 0 0;
+    transition: all 0.4s ease 0s;
+}
+.pagination li a.page-link:before, .pagination li:first-child a.page-link:before, .pagination li:last-child a.page-link:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #55c57a;
+    border-radius: 50%;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: all 0.3s ease 0s;
+}
+.pagination li.active a.page-link, .pagination li a.page-link:hover, .pagination li.active a.page-link:hover {
+    background-color: transparent;
+    color: #55c57a;
+    /*border: none;*/
+
+  
+    border: 2px solid #55c57a;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
