@@ -1,0 +1,8 @@
+.stats .research-feed-footer-right{
+  color: #a9a9a9;
+  font-weight: 400;
+}
+.stats .research-feed-footer-right:hover{
+  color: #55c57a;
+  cursor: pointer;
+}
