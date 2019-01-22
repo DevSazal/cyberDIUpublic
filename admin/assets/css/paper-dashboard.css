@@ -310,6 +310,7 @@ hr {
     z-index: 4;
     height: 100vh;
     box-shadow: inset -1px 0px 0px 0px #DDDDDD;
+    overflow: hidden;
 }
 
 .sidebar .sidebar-background {
