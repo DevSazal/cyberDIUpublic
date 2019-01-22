@@ -156,6 +156,37 @@ strong {
 .icon-danger {
     color: #EB5E28;
 }
+/*Tag  dev start*/
+.tag{
+    padding: 1px 15px;
+    background-color: #55c57a;
+    border-radius: 4px;
+    color:#fff;
+}
+.skill{
+    line-height: 1.4em;
+    font-family: 'Muli', "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-bottom: 0px;
+}
+.skill:hover{
+    padding: 1px 15px;
+    background-color: #e3e0e0;
+    color: #9A9A9A;
+    cursor:pointer;
+}
+/*researh feed footer*/
+.research-feed-footer-left{
+    width:auto;
+}
+.research-feed-footer-right{
+    width:auto;
+}
+
+
+
 
 .chart-legend .text-primary, .chart-legend .text-primary:hover {
     color: #7A9E9F;
@@ -2241,9 +2272,14 @@ textarea.form-control {
 }
 
 .card .stats {
+    
     color: #a9a9a9;
     font-weight: 300;
 }
+.stats div{ 
+    display:unset !important;
+
+ }
 
 .card .stats i {
     margin-right: 2px;
