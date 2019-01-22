@@ -211,3 +211,6 @@
     width: 90%;
     list-style: none;
 }
+.nav>li {
+    overflow: hidden;
+}
