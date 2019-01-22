@@ -208,8 +208,11 @@
     overflow: hidden;
 }
 .dropdown-ul li{
-    width: 90%;
     list-style: none;
+    margin-bottom: 14px;
+}
+.dropdown-ul li span{
+    margin-right: 20px;
 }
 .nav>li {
     overflow: hidden;
@@ -233,4 +236,14 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
+}
+
+.caret{
+    position: absolute;
+    right: 12px;
+    margin-top: 12px;
+    transition: .2s;
+}
+.dropdown-btn:hover .caret{
+    transform: rotate(180deg);
 }
