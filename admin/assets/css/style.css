@@ -198,3 +198,16 @@
     opacity: 1;
     filter: alpha(opacity=100);
 }
+
+/* tuhin css */
+.dropdown-btn{
+    overflow: hidden;
+}
+.dropdown-ul{
+    display: block;
+    overflow: hidden;
+}
+.dropdown-ul li{
+    width: 90%;
+    list-style: none;
+}
