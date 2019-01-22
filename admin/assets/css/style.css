@@ -179,3 +179,22 @@
  .single-research-feed .single-feed .footer{ 
 	padding-bottom: 20px;
   }
+  
+
+ /* Nav Sidebar*/
+ .sidebar[data-active-color="danger"] .nav li.active > a, .off-canvas-sidebar[data-active-color="danger"] .nav li.active > a {
+    color: #55c57a;
+}
+.logo .color-x{
+	color: #E74C3C;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    background-color: #eee;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:not(.btn):hover, .navbar-default .navbar-nav > .active > a:not(.btn):focus, .navbar-default .navbar-nav > li > a:not(.btn):hover, .navbar-default .navbar-nav > li > a:not(.btn):focus {
+    background-color: transparent;
+    border-radius: 3px;
+    color: #55c57a;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
