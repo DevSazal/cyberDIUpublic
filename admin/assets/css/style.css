@@ -41,7 +41,7 @@
 	text-decoration: underline;
  }
 
- /*pagination CSS*/
+ /*pagination CSS start*/
 
  .pagination-box{ 
 	text-align: center;
@@ -165,21 +165,60 @@
     transition: all 0.3s ease 0s;
 }
 
+ /*pagination CSS END*/
 
 
-.single-research-feed .card .header{
-	background:#f9f9f9;
-	padding: 20px 20px 20px 20px;
+ /*single-research-feed design start*/
+.single-feed-research .content{ 
+    padding-left:20px;
+ }
+ .card .single-feed-research .footer br {
+    margin-top: 3px !important ;
+    margin-bottom:5px !important;
 }
-.single-feed .content .single-feed-time{ 
+.single-feed-research .content .single-feed-time{ 
 	margin-bottom: 20px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid #e0e0e0;
  }
+ .single-research-feed .card .header{
+    background:#f9f9f9;
+    padding: 20px 20px 20px 20px;
+}
  .single-research-feed .single-feed .footer{ 
 	padding-bottom: 20px;
   }
-  
+
+ /*single-research-feed design*/
+
+/*single-research-feed sidebar design*/
+.btn-primary-color{
+    background: #55c57a;
+    padding: 10px 20px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+}
+.btn-primary-color:hover{ 
+    background-color: #e3e0e0;
+    color: #9A9A9A;
+    cursor:pointer;
+}
+.stats .about-supervisor h4{ 
+    margin: 5px 0px 5px !important;
+    padding-bottom: 5px;
+    font-weight: 400px !important;
+}
+.pl-5{
+    padding: 3px;
+}
+.align-center{ 
+    text-align: center;
+ }
+
+
+
 
  /* Nav Sidebar*/
  .sidebar[data-active-color="danger"] .nav li.active > a, .off-canvas-sidebar[data-active-color="danger"] .nav li.active > a {
