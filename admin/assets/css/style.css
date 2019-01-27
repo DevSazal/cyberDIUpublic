@@ -217,7 +217,17 @@
     text-align: center;
  }
 
+/*single-research-feed sidebar design end*/
 
+.single-feed .single-feed-img{
+    padding:20px;
+}
+.single-feed .single-feed-img img{ 
+    border-radius: 7px;
+    height: 150px;
+    width:140px;
+    text-align: center;
+}
 
 
  /* Nav Sidebar*/
