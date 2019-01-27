@@ -8,43 +8,43 @@
   cursor: pointer;
 }
 .single-feed{
-	border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
 .feed-stats{
-	margin-left: -12px;
+    margin-left: -12px;
 }
 .single-feed .content{
-	padding-left:20px;
+    padding-left:20px;
 }
 .card hr{
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 .card .single-feed .footer br {
-	margin-top: 3px !important ;
+    margin-top: 3px !important ;
     margin-bottom:5px !important;
 }
 .single-feed:hover{ 
-	background: #f9f9f9;
-	transform: translateY(-3px);
-	transition: all 0.3s;
-	-webkit-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
-	-moz-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
-	box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
-	
+    background: #f9f9f9;
+    transform: translateY(-3px);
+    transition: all 0.3s;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
+    box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
+    
  }
  .single-feed .header .title{ 
 
-	color:#55c57a;
+    color:#55c57a;
  }
  .single-feed .header .title:hover{ 
-	text-decoration: underline;
+    text-decoration: underline;
  }
 
  /*pagination CSS start*/
 
  .pagination-box{ 
-	text-align: center;
+    text-align: center;
   }
 .pagination-box .pagination {
     display: inline-flex;
@@ -177,16 +177,16 @@
     margin-bottom:5px !important;
 }
 .single-feed-research .content .single-feed-time{ 
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
  }
  .single-research-feed .card .header{
     background:#f9f9f9;
     padding: 20px 20px 20px 20px;
 }
  .single-research-feed .single-feed .footer{ 
-	padding-bottom: 20px;
+    padding-bottom: 20px;
   }
 
  /*single-research-feed design*/
@@ -216,26 +216,61 @@
 .align-center{ 
     text-align: center;
  }
+.supervisor-info:after{ 
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+.Research-Status h5{ 
+    margin-top: -15px;
+}
 
 /*single-research-feed sidebar design end*/
 
-.single-feed .single-feed-img{
+
+
+/*single-research-feed profile design start*/
+
+.single-feed-profile .single-feed .single-feed-img{
     padding:20px;
 }
-.single-feed .single-feed-img img{ 
+
+.single-feed-profile .single-feed .single-feed-img img{ 
     border-radius: 7px;
-    height: 150px;
+    height:150px;
     width:140px;
     text-align: center;
 }
 
+.single-feed-profile.single-feed:hover{ 
+    background: #f9f9f9 !important;
+    transition: all 0.3s;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
+    box-shadow: 0px 0px 10px 0px rgba(222,222,222,1);
+    
+ }
+.single-feed-profile .single-feed .researcher-info{ 
+    margin-left: -15px;
+ }
+.border-r
+{ 
+    border-right: 1px solid #e0e0e0;
+}
+.pd-l-25{ 
+    padding-left: 25px;
+}
+.TAC{ 
+    text-align:center;
+}
 
- /* Nav Sidebar*/
+/*single-research-feed profile design end*/
+
+
+/* Nav Sidebar*/
  .sidebar[data-active-color="danger"] .nav li.active > a, .off-canvas-sidebar[data-active-color="danger"] .nav li.active > a {
     color: #55c57a;
 }
 .logo .color-x{
-	color: #E74C3C;
+    color: #E74C3C;
 }
 .nav>li>a:focus, .nav>li>a:hover {
     background-color: #eee;
