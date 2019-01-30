@@ -206,7 +206,7 @@
     cursor:pointer;
 }
 .stats .about-supervisor h4{ 
-    margin: 5px 0px 5px !important;
+    margin: 20px 3px 5px !important;
     padding-bottom: 5px;
     font-weight: 400px !important;
 }
@@ -216,12 +216,11 @@
 .align-center{ 
     text-align: center;
  }
-.supervisor-info:after{ 
-    border-bottom: 1px solid #e0e0e0 !important;
-}
 .Research-Status h5{ 
-    margin-top: -15px;
+    margin-top: -25px;
+    margin-left: 3px;
 }
+
 
 /*single-research-feed sidebar design end*/
 
@@ -230,7 +229,7 @@
 /*single-research-feed profile design start*/
 
 .single-feed-profile .single-feed .single-feed-img{
-    padding:20px;
+    padding: 20px 0px 0px 0px;
 }
 
 .single-feed-profile .single-feed .single-feed-img img{ 
@@ -251,6 +250,11 @@
 .single-feed-profile .single-feed .researcher-info{ 
     margin-left: -15px;
  }
+ .single-feed-border-botton{
+    margin: 0px auto;
+    width: 30%;
+    border-bottom: 1px solid #55c57a;
+ }
 .border-r
 { 
     border-right: 1px solid #e0e0e0;
@@ -260,6 +264,12 @@
 }
 .TAC{ 
     text-align:center;
+}
+@media (max-width: 1024px) {
+  /* For mobile phones: */
+.single-feed-profile .single-feed .single-feed-img{
+    display:none;
+  }
 }
 
 /*single-research-feed profile design end*/
@@ -330,4 +340,17 @@
 }
 .dropdown-btn:hover .caret{
     transform: rotate(180deg);
+}
+/*additional file design*/
+.Additional-File{
+    padding-left:5px;
+}
+.document a{ 
+    color:#55c57a; #66615b   
+}
+.document a:hover{ 
+    color: #66615b;    
+}
+.document{ 
+    padding-right: 20px;
 }
