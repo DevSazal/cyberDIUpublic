@@ -1,3 +1,10 @@
+.sidebar .nav p, .off-canvas-sidebar .nav p {
+    margin: 0;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
 /*research feeds design*/
 .stats .research-feed-footer-right{
   color: #a9a9a9;
@@ -216,9 +223,9 @@
 .align-center{ 
     text-align: center;
  }
-.Research-Status h5{ 
-    margin-top: -25px;
-    margin-left: 3px;
+.research-status h5{ 
+    padding-top: 10px;
+    padding-left: 3px;
 }
 
 
@@ -346,7 +353,7 @@
     padding-left:5px;
 }
 .document a{ 
-    color:#55c57a; #66615b   
+    color:#55c57a;   
 }
 .document a:hover{ 
     color: #66615b;    
